@@ -13,8 +13,8 @@ This triggers a Cloud66 stack redeployment for the current `WERCKER_GIT_COMMIT`.
 deploy:
   steps:
     - cloud66-deploy:
-      stack-id: $STACK_ID
-      token: $TOKEN
+        stack-id: $STACK_ID
+        token: $TOKEN
 ```
 
 # License
